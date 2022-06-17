@@ -12,7 +12,7 @@ def bubble_sort(arr)
         arr[i + 1] = temp
       end
     end
-    keep_going = false if temp = nil
+    keep_going = false if temp == nil
     loop_counter += 1
   end
   arr
