@@ -9,10 +9,12 @@ def shift_char(char, shft)
   if (ascii_char >= 65 && ascii_char <= 90)
     ascii_char += shft
     ascii_char = ascii_char - 90 + 64 if ascii_char > 90
+    ascii_char = ascii_char + (90 - 64) if ascii_char < 65
   end
   if (ascii_char >= 97 && ascii_char <= 122)
     ascii_char += shft
     ascii_char = ascii_char - 122 + 96 if ascii_char > 122
+    ascii_char = ascii_char + (122 - 96) if ascii_char < 97
   end
   ascii_char.chr
 end
