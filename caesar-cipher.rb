@@ -19,9 +19,9 @@ def shift_char(char, shft)
   ascii_char.chr
 end
 
-puts "What word would you like to encrypt?"
-string = gets.chomp.to_s
-puts "How many values would you like to shift by?"
-shft = gets.chomp.to_i
+# puts "What word would you like to encrypt?"
+# string = gets.chomp.to_s
+# puts "How many values would you like to shift by?"
+# shft = gets.chomp.to_i
 
-p caesar_cipher(string, shft)
+# p caesar_cipher(string, shft)
